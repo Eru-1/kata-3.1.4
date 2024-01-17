@@ -1,0 +1,80 @@
+@media (min-width: 767px) and (max-width: 1119px) {
+  .header {
+    padding: 0 8px;
+  }
+
+  .header__MR {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__middleZone {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .header__btn--mail {
+    margin-left: 16px;
+  }
+
+  .header__btn--body {
+    margin-left: 16px;
+  }
+
+  .header__logo {
+    margin-left: 42px;
+  }
+
+  .header__btn--burger::after {
+    content: url(../icons/divider.svg);
+    margin-left: 60px;
+    height: 32px;
+  }
+
+  h1 {
+    padding-left: 20px;
+  }
+
+  .container {
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+
+  .container__btn--prices {
+    display: initial;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .footer__textBtn {
+    max-width: 336px;
+  }
+
+  .footer__text {
+    width: 312px;
+    height: 165px;
+    line-height: 20px;
+    margin-left: 24px;
+  }
+
+  .footer__btn {
+    margin-top: 10px;
+  }
+
+  .footer__btn::before {
+    margin-left: 25px;
+  }
+
+  .footer__mainThem {
+    border-radius: 6px;
+    width: 360px;
+    height: 208px;
+    background-size: cover;
+    margin-left: 48px;
+    margin-top: 15px;
+    background-image: url(../img/mainmr.jpg);
+  }
+}
